@@ -48,7 +48,7 @@ int main()
                 if (i=='c')
                 {
 
-                    i=std::toupper(i);
+                    i=std::tolower(i);
                     file_out3<<msg<<'\n';
                     ok=false;
 
