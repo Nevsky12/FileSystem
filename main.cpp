@@ -34,7 +34,7 @@ int main()
             msg="";
             fs>>msg;
             int Length=msg.length();
-            for (auto i: msg)
+            for (auto &i: msg)
             {
 
                 i=std::tolower(i);
@@ -42,13 +42,13 @@ int main()
             }
 
             bool ok=true;
-            for (auto i: msg)
+            for (auto &i: msg)
             {
 
                 if (i=='c')
                 {
 
-                    i=std::tolower(i);
+                    i=std::toupper(i);
                     file_out3<<msg<<'\n';
                     ok=false;
 

@@ -1,8 +1,6 @@
-Milk_
-Tank_
-Arrogant_
-Rent_
-MyLife_
-Kurlik_
-
-
+milk_
+tank_
+arrogant_
+rent_
+mylife_
+kurlik_
